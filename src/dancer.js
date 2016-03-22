@@ -7,7 +7,6 @@ var Dancer = function(top, left, timeBetweenSteps){
   this.top = top;
   this.left = left;
   this.step();
-  this.step.callCount = 0;
   this.setPosition(top, left);
 };
 
@@ -16,12 +15,11 @@ Dancer.prototype.step = function(){
   // it just schedules the next step
   // console.log(this.step.bind(this))
   var that = this;
-  // console.log('timeBetweenSteps: ', this.timeBetweenSteps)
   setTimeout(function() {
     that.step();
-    this.callCount++;
-    console.log(that.step.callCount)
+    // console.log(that.step.callCount)
   }, this.timeBetweenSteps);
+  // console.log('that:',that.step.callCount)
 };
 
 Dancer.prototype.setPosition = function(top, left){
