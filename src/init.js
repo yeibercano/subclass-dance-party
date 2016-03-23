@@ -1,12 +1,12 @@
 $(document).ready(function(){
   window.dancers = [];
-  var $dancers = window.dancer;
+  var $dancers = window.dancers;
 
   $(".lineUp").on("click",function(event){
-    // console.log('inside')
-    console.log('dancers:', window.dancers)
-    for (var i = 0; i < window.dancers.length; i++) {
-      window.dancers[i].setPosition(0, );
+    for (var i = 0; i < $dancers.length; i++) {
+      
+      // $('window.dancers')[i].addClass('lineUp');
+      $dancers[i].setPosition(100);
     };
   });
 

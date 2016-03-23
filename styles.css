@@ -29,7 +29,7 @@ body, a:link, a:visited, a:active{
   position:absolute;
 }
 .lineUp {
-  
+  float: left;
 }
 /*main {
   width: 1020;
