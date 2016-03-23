@@ -9,5 +9,4 @@ BreakDancer.prototype.constructor = BreakDancer;
 BreakDancer.prototype = Object.create(Dancer.prototype);
 
 BreakDancer.prototype.breakin = function() {
-  
 };

@@ -4,9 +4,8 @@ $(document).ready(function(){
 
   $(".lineUp").on("click",function(event){
     for (var i = 0; i < $dancers.length; i++) {
-      
       // $('window.dancers')[i].addClass('lineUp');
-      $dancers[i].setPosition(100);
+      $dancers[i].setPosition(100);       // this needs fixing somehow, not sure exactly what but its close.
     };
   });
 
@@ -25,7 +24,7 @@ $(document).ready(function(){
      * to the stage.
      */
     var dancerMakerFunctionName = $(this).data("dancer-maker-function-name");
-    // console.log(dancerMakerFunctionName);
+
     // get the maker function for the kind of dancer we're supposed to make
     var dancerMakerFunction = window[dancerMakerFunctionName];
 

@@ -8,5 +8,4 @@ Turbo.prototype.constructor = Turbo;
 Turbo.prototype = Object.create(BreakDancer.prototype);
 
 Turbo.prototype.robot = function() {
-  
 };

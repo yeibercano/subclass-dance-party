@@ -3,7 +3,6 @@ body, html{
 }
 body{
   margin: 0px;
-  /*background-color:#444;*/
   background-image: url("img/dancefloor.jpg");
   background-repeat:no-repeat;
   background-size: 100%;
